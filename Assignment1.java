@@ -10,14 +10,14 @@ public class Assignment1 {
     String longChar; //input 5 character string
     String shortChar; // output reverse 3 character string
 
-    System.out.println ("NNNN          NNN \t");
-    System.out.println ("NNNNNN        NNN");
-    System.out.println ("NNN NNN       NNN");
-    System.out.println ("NNN  NNN      NNN");
-    System.out.println ("NNN   NNN     NNN");
-    System.out.println ("NNN    NNN    NNN");
-    System.out.println ("NNN     NNNN  NNN");
-    System.out.println ("NNN       NNNNNNN");
+    System.out.println ("NNNN          NNN\t  GGGGGG");
+    System.out.println ("NNNNNN        NNN\tGGG     GG");
+    System.out.println ("NNN NNN       NNN\tGGG");
+    System.out.println ("NNN  NNN      NNN\tGGG GGGGGGG");
+    System.out.println ("NNN   NNN     NNN\tGGG   GGG");
+    System.out.println ("NNN    NNN    NNN\tGGG   GGG");
+    System.out.println ("NNN     NNNN  NNN\tGGGG  GGG");
+    System.out.println ("NNN       NNNNNNN\t GGGGGGG");
 
   }
 }
