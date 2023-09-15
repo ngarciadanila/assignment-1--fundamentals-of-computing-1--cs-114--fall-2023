@@ -10,8 +10,8 @@ public class Assignment1 {
     String longChar;
     String shortChar;
 
-    System.out.println ("NNNN          NNN")
-    System.out.println ("NNNNNN    NNN")
-    System.out.println ("NNN NNN   NNN")
+    System.out.println ("NNNN          NNN");
+    System.out.println ("NNNNNN    NNN");
+    System.out.println ("NNN NNN   NNN");
   }
 }
