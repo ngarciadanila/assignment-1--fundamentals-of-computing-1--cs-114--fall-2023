@@ -4,7 +4,7 @@ public class Assignment1 {
     // Assignment 1: printing, equations, manipulating strings, integers, concating strings
     // File: Assignment1.java
     
-    Scanner scan = new Scanner(System.in);//user input
+    Scanner stringScan = new Scanner(System.in); //user input
     int degF; //input fahrenheit
     int degC; //output celcius
     String longChar; //input 5 character string
@@ -20,7 +20,7 @@ public class Assignment1 {
     System.out.println ("NNN       NNNNNNN\t GGGGGGG");
     
       System.out.print ("Please enter a number in degrees Fahrenheit:");
-      degF = scan.next();
+      degF = stringScan.next();
 
 
   }
