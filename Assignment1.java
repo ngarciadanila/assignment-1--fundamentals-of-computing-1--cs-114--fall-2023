@@ -18,10 +18,11 @@ public class Assignment1 {
     System.out.println ("NNN    NNN    NNN\tGGG   GGG");
     System.out.println ("NNN     NNNN  NNN\tGGGG  GGG");
     System.out.println ("NNN       NNNNNNN\t GGGGGGG");
-    System.out.println ("\n");
+    System.out.println ("\n"); 
     
       System.out.print ("Please enter a number in degrees Fahrenheit:");
       degF = stringScan.nextInt();
+      degC = degF - 32;
 
 
   }
