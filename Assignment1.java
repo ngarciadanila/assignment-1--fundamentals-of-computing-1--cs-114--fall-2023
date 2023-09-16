@@ -19,7 +19,7 @@ public class Assignment1 {
     System.out.println ("NNN     NNNN  NNN\tGGGG  GGG");
     System.out.println ("NNN       NNNNNNN\t GGGGGGG");
     
-      System.out.print ("Please enter a number in degrees Fahrenheit:")
+      System.out.print ("Please enter a number in degrees Fahrenheit:");
       degF = scan.next();
 
 
