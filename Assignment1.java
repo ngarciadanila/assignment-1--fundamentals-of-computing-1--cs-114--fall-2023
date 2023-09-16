@@ -22,7 +22,8 @@ public class Assignment1 {
     
       System.out.print ("Please enter a number in degrees Fahrenheit:");
       degF = stringScan.nextInt();
-      degC = degF - 32;
+      degC = (degF - 32) * 5/9;
+      System.out.print (degC);
 
 
   }
