@@ -6,7 +6,7 @@ public class Assignment1 {
     
     Scanner stringScan = new Scanner(System.in); //user input
     int degF; //input fahrenheit
-    int degC; //output celcius
+    double degC; //output celcius
     String longChar; //input 5 character string
     String shortChar; // output reverse 3 character string
 
@@ -20,10 +20,17 @@ public class Assignment1 {
     System.out.println ("NNN       NNNNNNN\t GGGGGGG");
     System.out.println ("\n"); 
     
-      System.out.print ("Please enter a number in degrees Fahrenheit:");
+      System.out.print ("Please enter a number in degrees Fahrenheit: ");
+      System.out.print ("\n");
       degF = stringScan.nextInt();
-      degC = (degF - 32) * 5/9;
-      System.out.print (degC);
+      degC = (degF - 32.0) * 5.0/9.0;
+      System.out.println (degC);
+
+      System.out.print ("Please enter a 5-character string: ");
+      longChar = stringScan.next();
+      
+
+      
 
 
   }
