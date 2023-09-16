@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 public class Assignment1 {
   public static void main(String[] args) {
     // Assignment 1: printing, equations, manipulating strings, integers, concating strings
@@ -20,7 +20,7 @@ public class Assignment1 {
     System.out.println ("NNN       NNNNNNN\t GGGGGGG");
     
       System.out.print ("Please enter a number in degrees Fahrenheit:");
-      degF = stringScan.next();
+      degF = stringScan.nextInt();
 
 
   }
