@@ -28,6 +28,8 @@ public class Assignment1 {
 
       System.out.print ("Please enter a 5-character string: ");
       longChar = stringScan.next();
+      shortChar = new StringBuilder(longChar.substring(startIndex1, endIndex4)).reverse();
+      System.out.println (shortChar);
       
 
       
