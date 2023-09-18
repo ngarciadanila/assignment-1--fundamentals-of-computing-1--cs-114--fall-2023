@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Random;
 public class Assignment1 {
   public static void main(String[] args) {
     // Assignment 1: printing, equations, manipulating strings, integers, concating strings
@@ -26,10 +27,13 @@ public class Assignment1 {
       degC = (degF - 32.0) * 5.0/9.0;
       System.out.println (degC);
 
-      System.out.print ("Please enter a 5-character string: ");
+      System.out.print ("Please enter a 5-character string: "); 
+      System.out.print ("\n");
       longChar = stringScan.next();
-      shortChar = new StringBuilder(longChar.substring(startIndex1, endIndex4)).reverse();
-      System.out.println (shortChar);
+      
+      
+      
+      
       
 
       
