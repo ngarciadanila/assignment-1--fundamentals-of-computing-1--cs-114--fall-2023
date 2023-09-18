@@ -30,7 +30,9 @@ public class Assignment1 {
       System.out.print ("Please enter a 5-character string: "); 
       System.out.print ("\n");
       longChar = stringScan.next();
-      
+      shortChar = new StringBuilder(longChar.substring(beginIndex:1, endIndex:4)).reverse();
+      System.out.println (shortChar);
+
       
       
       
