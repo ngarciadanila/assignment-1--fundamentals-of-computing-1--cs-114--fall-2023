@@ -7,9 +7,10 @@ public class Assignment1 {
     
     Scanner stringScan = new Scanner(System.in); //user input
     int degF; //input fahrenheit
-    double degC; //output celcius
+    double degC; //output celsius
     String longChar; //input 5 character string
     String shortChar; // output reverse 3 character string
+    Random random;
 
     System.out.println ("NNNN          NNN\t  GGGGGG");
     System.out.println ("NNNNNN        NNN\tGGG     GG");
@@ -30,16 +31,10 @@ public class Assignment1 {
       System.out.print ("Please enter a 5-character string: "); 
       System.out.print ("\n");
       longChar = stringScan.next();
-      shortChar = new StringBuilder(longChar.substring(beginIndex:1, endIndex:4)).reverse();
+      shortChar = new StringBuilder(longChar.substring(beginIndex:1 endIndex:4));
       System.out.println (shortChar);
 
-      
-      
-      
-      
-
-      
-
-
+  rand = new Random();
+  
   }
 }
