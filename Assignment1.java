@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.util.Random;
+
 public class Assignment1 {
   public static void main(String[] args) {
     // Assignment 1: printing, equations, manipulating strings, integers, concating strings
@@ -38,5 +39,7 @@ public class Assignment1 {
     System.out.print("Random number generated. Continuing...");
     System.out.println ('\n');
     System.out.println ("Your new string is " + degC + shortChar + randomInt);
+
+    stringScan.close();
   }
 }
