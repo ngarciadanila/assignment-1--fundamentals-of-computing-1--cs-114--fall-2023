@@ -10,7 +10,7 @@ public class Assignment1 {
     double degC; //output celsius
     String longChar; //input 5 character string
     String shortChar; // output reverse 3 character string
-    Random random;
+    int randomInt; // range 32 - 16384 inclusive
 
     System.out.println ("NNNN          NNN\t  GGGGGG");
     System.out.println ("NNNNNN        NNN\tGGG     GG");
@@ -26,15 +26,17 @@ public class Assignment1 {
       System.out.print ("\n");
       degF = stringScan.nextInt();
       degC = (degF - 32.0) * 5.0/9.0;
-      System.out.println (degC);
 
       System.out.print ("Please enter a 5-character string: "); 
       System.out.print ("\n");
       longChar = stringScan.next();
-      shortChar = new StringBuilder(longChar.substring(beginIndex:1 endIndex:4));
-      System.out.println (shortChar);
+      shortChar = new StringBuilder(longChar.substring(1, 4)).reverse().toString();
 
-  rand = new Random();
-  
+      Random generator = new Random();
+      randomInt = generator.nextInt(16384 - 32 + 1) + 32;
+
+    System.out.print("Random number generated. Continuing...");
+    System.out.println ('\n');
+    System.out.println ("Your new string is " + degC + shortChar + randomInt);
   }
 }
